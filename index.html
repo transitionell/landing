@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>TransitionELL - Coming Soon</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
+
+		<!-- Style -->
+			<link 
+				href="tools/style.css" 
+				rel="stylesheet" 
+				type="text/css" 
+				media="screen" 
+			/>
+			<link 
+				href="http://successagency.com/di/coming-soon-demo/glacier-17/tools/font-awesome/css/font-awesome.css" 
+				type="text/css" 
+				rel="stylesheet"
+			>
+
+		<!-- Scripts -->
+			<script 
+				type="text/javascript" 
+				src="tools/jquery.min.js"
+			></script> 
+
+		<!-- Fonts -->	
+			<link 
+				href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' 
+				rel='stylesheet' 
+				type='text/css'
+			>
+			<link 
+				href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" 
+				rel="stylesheet"
+			>
+	</head>
+	<body>
+		<div class="transy"></div>
+		<div class="wrapper">
+			<div class="centered">
+				<div class="header">
+					<h1 id="logo">Transition ELL</h1>
+					<p class="line1">
+						check out&nbsp;&nbsp;<a href="http://blog.transitionell.com/">our blog</a>
+					</p>
+				</div>
+				
+				<div class="content">
+					<p>
+						A platform to make academic content more accessible to English Language Learners
+					</p>
+				</div>
+				
+				
+				
+
+
+				<form 
+					class="form"
+					action="https://formspree.io/transitionell@gmail.com"
+					method="POST"
+				>
+					<p>be notified! we just need your email address.</p>
+					<div class="mainform">
+						<div class="field"><input type="text" class="field" id="test" value="example@youremail.com"  /></div>
+						<div class="submit"><input class="submit" type="submit" value="Okay" /></div>						
+					</div>
+				</form>
+				
+				
+				
+				<div class="social">
+				<p>
+					<a 
+						href="https://twitter.com/transitionell"
+					>
+						<span class="socicon-twitter"></span>
+					</a>
+					<a 
+						href="https://www.facebook.com/transitionell"
+					>
+						<span class="socicon-facebook"></span>
+					</a>
+				</p>
+				</div>
+			</div>
+		</div>
+
+			
+			
+		<script 
+			type="text/javascript"
+		>
+			var placeholder = $("#test").val();
+
+			$("#test").keydown(function() {
+			    if (this.value == placeholder) {
+			        this.value = '';
+			    }
+			}).blur(function() {
+			    if (this.value == '') {
+			        this.value = placeholder;
+			    }
+			});
+		</script>
+
+	</body>
+</html>
